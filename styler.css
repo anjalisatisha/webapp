@@ -1,0 +1,85 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body styling */
+body {
+    background: linear-gradient(to right, #ffdfdf, #fad4d4, #a6c1ee);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main container styling */
+.main-container {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Header styling */
+header {
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    font-weight: bold;
+    color: #5f5f5f;
+}
+
+/* Hire Me Section Styling */
+.hire-me-section {
+    width: 100%;
+    padding: 20px;
+    background-color: #ffebeb;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.hire-me-section h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.hire-me-section p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Resume Download Section */
+.resume-download {
+    margin-top: 30px;
+}
+
+.resume-download h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.resume-download .button {
+    padding: 10px 20px;
+    background-color: #ffc1cc; /* Pastel Pink Color */
+    color: #333; /* Dark Text for Contrast */
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: all 0.3s;
+    border: 2px solid #ffb3ba;
+}
+
+.resume-download .button:hover {
+    background-color: #ffb3ba; /* Darker Pastel Pink on Hover */
+    transform: translateY(-2px);
+}
+

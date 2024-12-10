@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me | AnjaliSatisha's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <h2>CONTACT ME</h2>
+            <a href="index.html" class="back-button">Back to Portfolio</a>
+        </header>
+
+        <section class="contact-container">
+            <h3>Get in Touch</h3>
+            <p>If you have any questions or would like to work with me, feel free to reach out!</p>
+
+            <!-- Contact Form -->
+            <form action="submit_contact_form.php" method="POST">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
